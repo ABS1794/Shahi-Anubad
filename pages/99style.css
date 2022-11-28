@@ -1,0 +1,70 @@
+/*  "*" Tag used to put style in every tag will be writed in this css  */
+
+* {
+    margin: 0px;
+}
+
+/* "body" tag used to give style for every tag belongs to the body part  */
+
+body {
+    font-family: poppins;
+}
+
+.top-head {
+    margin: 0px 0px;
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    background-color: lightgrey;
+    padding: 5px;
+}
+
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px 20px;
+}
+
+.nav-ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.logo__img {
+    width: 18vh;
+}
+
+a {
+    text-decoration:  none; 
+    color: black;
+}
+
+.animation:hover, .animation:focus {
+    background-color: aqua; 
+    font-weight: bold;
+}
+
+
+
+.video_99 {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-bolumunder {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.p-bolumunderunder {
+    font-size: 15px;
+    margin-left: 5%;
+    margin-top: 5px;
+} 
